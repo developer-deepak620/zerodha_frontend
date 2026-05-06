@@ -15,7 +15,7 @@ function SignUp() {
 
     try {
       const res = await axios.post(
-        "https://zerodha-dashboard-gules-kappa.vercel.app/signup",
+        "https://zerodha-backend-bt2m.onrender.com/signup",
         data,
         {
           withCredentials: true,
